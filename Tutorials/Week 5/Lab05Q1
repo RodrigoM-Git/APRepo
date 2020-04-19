@@ -1,0 +1,16 @@
+a.) The purpose of #ifndef/#define/#endif statements are to prevent multiple
+    inclusions, ensuring that if the card.h file was included twice, the compiler would
+    only see it once. (Ensures each file is only included once in one compilation.)
+
+b.) A reference to another card object
+
+c.) As the card will duplicate primitive values such as colour and int, and includes no pointers,
+    there would be no difference between the shallow or deep copy so it will conduct neither
+    a shallow or deep copy, but just a copy.
+
+d.) It doesn't need a default constructor as a constructor has already been made. If a default constructor
+    was called, there would be no way to tell what colour and number the card has.
+
+e.) No it is not a good idea as there is already a getRule() function in the class. It is best to just call
+    the getRule() function and just print the result, instead of having a dedicated function within the class 
+    to print out the result for you.

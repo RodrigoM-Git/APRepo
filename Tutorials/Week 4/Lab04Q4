@@ -1,0 +1,5 @@
+Had to create new objects on the heap for each type and assign them to pointers
+instead of just creating them on the stack.
+
+Also had to delete from the heap after to deallocate instead of letting
+the stack delete them itself.
